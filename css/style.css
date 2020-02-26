@@ -1,0 +1,75 @@
+
+
+/*---------------------------NAV---------------------------*/
+
+nav{
+	width:100%;
+	
+}
+
+
+a{
+color:#000;
+text-decoration:none;
+display:flex;
+
+}
+
+
+
+/*---------------------------Page 1---------------------------*/
+body{
+    width:100%;
+}
+
+.intro{ 
+
+height:50vh;
+
+padding:40px;
+
+ }
+
+.opportunities{
+    height:10vh;
+    padding:30px;
+   
+}
+
+.work-row1, .work-row3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    padding:40px;
+}
+
+.campusrec, .pacificsentinel, .youthmusicproject, .forage, .revengeseries, .whales, .harneysons, .surreal, .landscapes, .other{
+    border:solid 1px black;
+    height:300px;
+}
+
+
+.work-row2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    padding:40px;
+
+}
+
+
+
+/*---------------------------FOOTER---------------------------*/
+.footer{
+    color: #f7b000;
+    margin: 0px auto;
+    padding-bottom:0px;
+    width:100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: tenez, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    }
