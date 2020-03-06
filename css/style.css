@@ -1,9 +1,15 @@
 
+body{
+    background-color: #fff8ee;
+    width:100%;
+}
 
 /*---------------------------NAV---------------------------*/
 
+
 nav{
-	width:100%;
+	width:50%;
+    display:flex;
 	
 }
 
@@ -12,15 +18,49 @@ a{
 color:#000;
 text-decoration:none;
 display:flex;
-
+font-family: work-sans, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size:16px;
+padding:20px;
+margin:30px;
 }
 
+/*---------------------------TYPE---------------------------*/
 
+
+h1{
+font-family: vendetta, serif;
+font-weight: 300;
+font-style: normal;
+font-size:50px;
+color:#005c27;
+}
+
+h2{
+font-family: work-sans, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size:18px;
+}
+
+p{
+font-family: work-sans, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size:16px;
+}
 
 /*---------------------------Page 1---------------------------*/
 body{
     width:100%;
 }
+
+.landing{
+    display:grid;
+    grid-template-columns: 60% 40%;
+}
+
 
 .intro{ 
 
@@ -33,6 +73,7 @@ padding:40px;
 .opportunities{
     height:10vh;
     padding:30px;
+    border-bottom:solid .5px #000;
    
 }
 
@@ -40,7 +81,7 @@ padding:40px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-
+    border-bottom:solid .5px #000;
     padding:40px;
 }
 
@@ -54,22 +95,87 @@ padding:40px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-
+    border-bottom:solid .5px #000;
     padding:40px;
 
 }
 
 
+.mobile-client, .mobile-class, .mobile-photography{
+    display:none;
+} 
 
 /*---------------------------FOOTER---------------------------*/
+
+
+.footer-section{
+width:100%;
+height:30vh;
+padding:30px;
+}
+
+textarea {
+margin:auto;
+width: 50%;
+height: 150px;
+padding: 12px 20px;
+background-color: #fff8ee;
+font-family: work-sans, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size:16px;
+resize: none;
+color: #005c27;
+border:none;
+}
+
+
+
+
 .footer{
-    color: #f7b000;
     margin: 0px auto;
     padding-bottom:0px;
     width:100%;
     text-align: center;
-    font-size: 12px;
-    font-family: tenez, sans-serif;
+    font-family: vendetta, serif;
     font-weight: 300;
     font-style: normal;
+    font-size:13px;
+    color:#005c27;
     }
+
+
+
+
+/*///////////////////MEDIA QUERIES/////////////////////////////////*/
+
+@media only screen and (max-width:768px) {
+
+.landing, .work-row1, .work-row2, .work-row3{
+    grid-template-columns: 1fr;
+}
+
+.work-row1, .work-row2, .work-row3{
+    display:none;
+}
+
+.mobile-client, .mobile-class, .mobile-photography{
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ padding:40px;
+ border:solid 1px #000;
+ margin:auto;
+
+}
+
+}
+
+
+@media only screen and (min-width:1224px) {
+
+
+
+
+
+
+}    
