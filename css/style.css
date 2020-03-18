@@ -1,4 +1,21 @@
 
+.campus-static, .pacific-static, .youth-static, .forage-static, .harney-static, .whales-static, .revenge-static, .surreal-static, .landscapes-static, .other-static{
+  position:absolute;
+}
+
+.campus-static:hover, .pacific-static:hover, .youth-static:hover, .forage-static:hover, .harney-static:hover, .whales-static:hover, .revenge-static:hover, .surreal-static:hover, .landscapes-static:hover, .other-static:hover{
+  opacity:0
+}
+
+.mobile-client-static, .mobile-class-static, .mobile-photography-static{
+    position:absolute;
+}
+
+
+.mobile-client-static:hover, .mobile-class-static:hover, .mobile-photography-static:hover{
+  opacity:0;
+}
+
 body{
     background-color: #fff8ee;
     width:100%;
