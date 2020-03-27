@@ -29,10 +29,8 @@ body{
 }
 
 /*--------------------------BE BACK---------------------------*/
-.be-back{
-    display:grid;
-    grid-template-columns: 1fr;
-    width:100%;
+.be-back-gif{
+    display: block;
     margin:auto;
 
 }
