@@ -29,12 +29,17 @@ body{
 }
 
 /*--------------------------BE BACK---------------------------*/
-.be-back-gif{
+/*.be-back-gif{
+    display: block;
+    margin:auto;
+
+}*/
+
+.stay-in-gif{
     display: block;
     margin:auto;
 
 }
-
 
 /*---------------------------NAV---------------------------*/
 
