@@ -21,10 +21,18 @@
 
 	<main>
 
+
+
+		<section class="stay-in" id="loader">
+			<img src="./images/stay-in.gif" class="stay-in-gif" width="1200">
+		</section>
+
+
 		<nav class="nav">
 			<a href="#" class="active">Home</a>
 			<a href="#" class="active">Work</a>
-			<a href="#" class="active">Contact</a>
+			<a href = "mailto: kcrouch@pdx.edu">Contact</a>
+	
 	
   		</nav> 
 
@@ -42,7 +50,7 @@
 				</section>	
 
 				<section class="home-img">
-							<img src="https://www.fillmurray.com/500/500">
+							<img src="./images/self-image.jpg" width="500" height="500">
 	</section>
 
 				</section>	
@@ -197,6 +205,30 @@
   	crossorigin="anonymous"></script>
   	<!-- link for your script file -->
   	<script src="scripts/script.js"></script>	
+	
+
+
+
+	</main>
+	
+
+
+
+
+
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+ 
+</script>
+
 
 
 </body>
